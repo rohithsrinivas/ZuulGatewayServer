@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: ZoolGateway2
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: M1037764
+Implementation-Vendor-Id: com.eureka
+Build-Jdk: 1.8.0_152
+Implementation-URL: http://projects.spring.io/spring-boot/ZoolGateway2
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
