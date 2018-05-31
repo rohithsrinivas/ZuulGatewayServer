@@ -23,6 +23,7 @@ import org.springframework.http.client.ClientHttpResponse;
 @EnableEurekaClient
 @ComponentScan(basePackages = "com.zuul.*")
 @EnableCircuitBreaker
+@EnableHystrix
 public class ZoolGateway2Application {
 
 	public static void main(String[] args) {
