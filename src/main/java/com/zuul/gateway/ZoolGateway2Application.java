@@ -21,6 +21,7 @@ import org.springframework.http.client.ClientHttpResponse;
 @SpringBootApplication
 @EnableZuulProxy
 @EnableEurekaClient
+@EnableCircuitBreaker
 @ComponentScan(basePackages = "com.zuul.*")
 public class ZoolGateway2Application {
 
