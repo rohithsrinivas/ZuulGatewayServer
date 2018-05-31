@@ -41,8 +41,8 @@ public class ZoolGateway2Application {
 			@Override
 
 			public String getRoute() {
-
-				return "zuulRouter";
+				System.out.println("router initialized");
+				return "bookingservice";
 
 			}
 
@@ -55,6 +55,7 @@ public class ZoolGateway2Application {
 					@Override
 
 					public HttpHeaders getHeaders() {
+						System.out.println("header initialied");
 						HttpHeaders headers = new HttpHeaders();
 						headers.setContentType(MediaType.APPLICATION_JSON);
 						return headers;
@@ -64,7 +65,7 @@ public class ZoolGateway2Application {
 					@Override
 
 					public InputStream getBody() throws IOException {
-
+						System.out.println("body initialized");
 						return new ByteArrayInputStream("fallback".getBytes());
 
 					}
